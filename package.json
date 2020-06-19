@@ -1,0 +1,37 @@
+{
+  "name": "express-h2-example",
+  "version": "1.0.0",
+  "description": "Creating a express server with http2",
+  "main": "src/server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-h2": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node src/server.js",
+    "http1" : "node src/server_http1.js",
+    "http2" : "node src/server_http2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kissema/express-h2-example.git"
+  },
+  "keywords": [
+    "express",
+    "http2",
+    "h2",
+    "express-h2",
+    "protocol",
+    "node",
+    "js",
+    "javascript"
+  ],
+  "author": "Kissema Eduardo Rafael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kissema/express-h2-example/issues"
+  },
+  "homepage": "https://github.com/Kissema/express-h2-example#readme"
+}
