@@ -4,7 +4,7 @@
   "description": "Creating a express server with http2",
   "main": "src/server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-h2": "^1.0.3"
   },
   "devDependencies": {},
